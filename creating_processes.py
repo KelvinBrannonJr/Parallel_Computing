@@ -10,10 +10,10 @@ def do_work():
     print("Finished work")
 
 
-if __name__ == '__main__':
-    multiprocessing.set_start_method('spawn')
-    for _ in range(5):
-        p = Process(target=do_work, args=())
-        p.start()
+# if __name__ == '__main__':
+#     multiprocessing.set_start_method('spawn')
+#     for _ in range(5):
+#         p = Process(target=do_work, args=())
+#         p.start()
 
 
