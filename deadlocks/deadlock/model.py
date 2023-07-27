@@ -1,4 +1,4 @@
-class LowOrbitSatelliteArray:
+class Satellite:
     def __init__(self, uid, path_length, front_sensor):
         self.uid = uid
         self.path_length = path_length
